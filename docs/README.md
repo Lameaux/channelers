@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /not-sirius.jpg
 actionText: Get Started →
 actionLink: /test/
 features:
