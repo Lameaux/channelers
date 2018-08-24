@@ -73,3 +73,21 @@ Ad fugiat ut magna aliqua labore cupidatat qui. Sint culpa dolor anim est except
 Reprehenderit aute reprehenderit ipsum dolore. Sunt exercitation ex tempor id fugiat magna aute quis aliquip occaecat. Ut mollit eiusmod amet esse esse consectetur anim. Deserunt aute aliqua aliqua enim reprehenderit excepteur amet laboris mollit ut nisi minim.
 
 Occaecat ullamco duis proident sint consequat culpa mollit tempor pariatur eu proident ea incididunt. Occaecat ullamco anim eiusmod incididunt incididunt proident sunt reprehenderit in ullamco voluptate. Nisi aliquip excepteur aliquip nostrud velit ex. Do aliqua velit tempor nulla eu velit enim laborum tempor enim eiusmod. Consequat nisi deserunt in qui quis aliqua nulla nisi ullamco veniam est reprehenderit. Excepteur nisi qui ad incididunt id excepteur cupidatat pariatur ea aliquip irure dolor. Eiusmod do proident voluptate dolore consectetur voluptate.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+<vk-grid class="uk-child-width-expand@s uk-text-center">
+  <div>
+    <vk-card>Item</vk-card>
+  </div>
+  <div>
+    <vk-card>Item</vk-card>
+  </div>
+  <div>
+    <vk-card>Item</vk-card>
+  </div>
+</vk-grid>

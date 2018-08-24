@@ -1,8 +1,9 @@
 module.exports = {
+    lastUpdated: 'Last Updated', // string | boolean
     title: 'Hi VuePress',
     description: 'Just playing around',
     head: [
-		['link', { rel: 'icon', href: `/favicon.png` }]
+        ['link', { rel: 'icon', href: '/favicon.png' }]
 	],
 	ga: '',
     themeConfig: {
