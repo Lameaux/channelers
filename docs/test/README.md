@@ -4,6 +4,16 @@ sidebar: auto
 
 # Section Introduction
 
+<vk-tabs>
+  <vk-tabs-item title="Item">Hello!</vk-tabs-item>
+  <vk-tabs-item title="Item">Hello again!</vk-tabs-item>
+  <vk-tabs-item title="Item">Bazinga!</vk-tabs-item>
+</vk-tabs>
+
+<vk-button v-vk-tooltip="'Hello World'">Hover</vk-button>
+
+<div v-vk-height-viewport="{ offsetBottom: 20 }" class="uk-background-secondary uk-light uk-flex uk-flex-center uk-flex-middle"><span class="">Test</span></div>
+
 Veniam esse duis ea amet veniam cillum sit nisi nostrud occaecat dolore commodo pariatur. Quis reprehenderit mollit anim nulla est. Ut adipisicing est pariatur quis tempor laboris qui cupidatat aute pariatur veniam.
 
 Eu aliquip adipisicing commodo laboris occaecat dolore elit irure officia anim eiusmod. Non tempor cupidatat aliqua laborum eiusmod quis reprehenderit magna aute amet nulla esse cupidatat sit. Elit minim duis deserunt duis veniam sint elit excepteur in occaecat id aliquip. Occaecat cupidatat ullamco tempor sint occaecat tempor mollit nostrud deserunt anim aute. Ut amet consectetur do do veniam exercitation sint voluptate non sint minim.
@@ -91,3 +101,12 @@ Occaecat ullamco duis proident sint consequat culpa mollit tempor pariatur eu pr
     <vk-card>Item</vk-card>
   </div>
 </vk-grid>
+
+<p uk-margin>
+    <button class="uk-button uk-button-default">Default</button>
+    <button class="uk-button uk-button-primary">Primary</button>
+    <button class="uk-button uk-button-secondary">Secondary</button>
+    <button class="uk-button uk-button-danger">Danger</button>
+    <button class="uk-button uk-button-text">Text</button>
+    <button class="uk-button uk-button-link">Link</button>
+</p>
