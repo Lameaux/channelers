@@ -1,7 +1,4 @@
 {
-  "devDependencies": {
-    "vuepress": "^0.14.2"
-  },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
@@ -11,6 +8,7 @@
     "@vuikit/theme": "^0.8.1",
     "axios": "^0.18.0",
     "broken-link-checker": "^0.7.8",
-    "vuikit": "^0.8.5"
+    "vuikit": "^0.8.5",
+    "vuepress": "^0.14.2"
   }
 }
