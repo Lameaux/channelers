@@ -1,0 +1,5 @@
+---
+pageClass: wide-container
+---
+
+<Channeler />   

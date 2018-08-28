@@ -1,23 +1,13 @@
 <template>
     <div>
         <h1>Channelers</h1>
-
-        <table class="uk-table uk-table-hover uk-table-responsive">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Name</th>
-                    <th>Table Heading</th>
-                </tr>
-            </thead>
-            <tbody class="uk-width-1-1">
-                <tr v-for="item in items">
-                    <td><img :src="item['fields']['Photo'][0]['thumbnails']['small']['url']" alt="" v-if="item['fields']['Photo']" width="40"></td>
-                    <td>{{ item['fields']['Name'] }}</td>
-                    <td>Table Data</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="uk-grid uk-grid-medium uk-grid-match uk-child-width-1-3@m" uk-grid>
+            <div v-for="item in items">
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">{{ item['fields']['Name'] }}</h3>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
